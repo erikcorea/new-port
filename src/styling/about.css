@@ -1,0 +1,26 @@
+.about {
+    width:100%;
+    height:500px;
+    color:white;
+    position:absolute;
+    text-align:center;
+    background-color:#363127;
+}
+
+.name{
+    margin:auto;
+    line-height:50px;
+    vertical-align:middle;
+}
+
+.title{
+    margin:auto;
+    line-height:20px;
+    vertical-align:middle;
+}
+
+.about-paragraph{
+    width: 50%;
+    margin:auto;
+    vertical-align:middle;
+}
