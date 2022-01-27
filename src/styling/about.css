@@ -9,6 +9,7 @@
 
 .name{
     margin:auto;
+    margin-top: 8%;
     line-height:50px;
     vertical-align:middle;
 }
@@ -20,7 +21,14 @@
 }
 
 .about-paragraph{
-    width: 50%;
     margin:auto;
+    width: 50%;
+    vertical-align:middle;
+    padding-bottom: 100px;
+}
+
+.buttons{
+    margin: auto;
+    width: 50%;
     vertical-align:middle;
 }

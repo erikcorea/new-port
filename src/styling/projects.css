@@ -1,0 +1,39 @@
+body{
+    background-color: #363127;
+}
+
+.project-cards-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-title{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 5%;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+}
+@media screen and (min-width: 1500px){
+    .community-cards-container{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+}

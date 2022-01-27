@@ -18,6 +18,11 @@ const About = () => {
                 Maiores minima consectetur 
             </p>
         </div>
+        <div className="buttons">
+            <button>RESUME</button>
+            <button>LinkedIn</button>
+            <button>GitHub</button>
+        </div>
     </div>
   );
 };
