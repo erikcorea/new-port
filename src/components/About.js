@@ -1,5 +1,6 @@
 import React from "react";
 import "../styling/about.css";
+import { SocialIcon } from 'react-social-icons';
 
 const About = () => {
   
@@ -13,15 +14,16 @@ const About = () => {
         </div>
         <div className="about-paragraph">
             <p>
-                Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur.
-                Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! 
-                Maiores minima consectetur 
+            Hello! I'm Erik Correa, a Chicago based software engineer.(willing to relocate) 
+            I am experienced in full stack development. My skills allow me to tackle complex programming problems presented on the job.
+            My love for programming stems from my passion to know how things work, how to build them, and how to fix them.
+            Contact me to get started working together! 
             </p>
         </div>
         <div className="buttons">
-            <button>RESUME</button>
-            <button>LinkedIn</button>
-            <button>GitHub</button>
+            <button className="resume">RESUME</button>
+            <SocialIcon url="https://www.linkedin.com/in/erik-correa/" />
+            <SocialIcon url="https://github.com/erikcorea" />
         </div>
     </div>
   );

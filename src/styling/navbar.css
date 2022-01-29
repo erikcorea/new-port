@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 body {
     margin: 0px;
 }
@@ -7,13 +10,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #363127;
+    background: #403E3F;
   }
   
   .Navbar > .nav-logo {
     font-weight: 700;
     font-size: 21px;
-    margin: 15px;
+    margin: 7rem;
     color: #ffffff;
   }
   
@@ -21,9 +24,14 @@ body {
     color: #ffffff;
     font-size: 16px;
     text-decoration: none;
-    margin: 15px;
+    margin: 1.5rem;
     position: relative;
     opacity: 0.9;
+  }
+
+  .nav-items{
+    padding-right: 7rem;
+    font-family: 'Work Sans', sans-serif;
   }
   
   .Navbar > .nav-items > a:hover {
@@ -43,6 +51,10 @@ body {
   
   .Navbar > .nav-items > a:hover::before {
     width: 100%;
+  }
+
+  .nav-logo{
+    font-family: 'Work Sans', sans-serif;
   }
   
   .Navbar > .nav-toggle {

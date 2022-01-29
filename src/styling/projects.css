@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
 body{
-    background-color: #363127;
+    background-color: #403E3F;
 }
 
 .project-cards-container{
@@ -20,6 +23,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .card {
@@ -29,11 +33,4 @@ body{
 .btn{
     color: white;
     background-color: black;
-}
-@media screen and (min-width: 1500px){
-    .community-cards-container{
-        width: 50%;
-        margin-left: 25%;
-        margin-top: 10%;
-    }
 }

@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
 .about {
     width:100%;
     height:500px;
     color:white;
     position:absolute;
     text-align:center;
-    background-color:#363127;
+    background-color:#403E3F;
 }
 
 .name{
@@ -12,12 +15,16 @@
     margin-top: 8%;
     line-height:50px;
     vertical-align:middle;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
 }
 
 .title{
     margin:auto;
     line-height:20px;
     vertical-align:middle;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
 }
 
 .about-paragraph{
@@ -31,4 +38,13 @@
     margin: auto;
     width: 50%;
     vertical-align:middle;
+}
+
+.resume{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: solid black 1px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 1.4rem;
 }

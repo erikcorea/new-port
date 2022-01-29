@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+body{
+    background-color: #403E3F;
+}
+
+.skills-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skills-title{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card {
+    margin-bottom: 5%;
+}
