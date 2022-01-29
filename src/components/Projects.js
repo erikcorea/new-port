@@ -3,7 +3,7 @@ import { projects } from './projectdata';
 import { Link } from 'react-router-dom';
 import '../styling/projects.css';
 
-export const Projects = () => {
+const Projects = () => {
     return (
         <>
         <h1 className='project-title'>Projects</h1>
@@ -12,8 +12,8 @@ export const Projects = () => {
             <div class="card" style={{width: "18rem"}}>
                 <div class="card-body">
                     <h5 class="card-title">{project.title}</h5>
-                    <p class="card-text">{project.body}.</p>
-                    <Link to={project.group} class="btn " >Join Community</Link>
+                    <p class="card-text">{project.description}.</p>
+                    <Link to={project.link} class="btn " >Join Community</Link>
                 </div>
             </div>
             ))}
