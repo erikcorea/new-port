@@ -2,15 +2,15 @@
 
 
 body{
-    background-color: #403E3F;
+    background-color: #F5EEDC;
 }
 
 .project-cards-container{
+    position: relative;
     width: 80%;
     margin-left: 10%;
     margin-top: 6%;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -24,13 +24,56 @@ body{
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-family: 'Work Sans', sans-serif;
+    color: #292B2E;
+    font-size: 3rem;
 }
 
-.card {
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #292B2E;
+    font-size: 1.3rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.project-card {
     margin-bottom: 5%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 8px #292B2E;
+    width: 20rem;
+    height: 20rem;
 }
 
-.btn{
-    color: white;
-    background-color: black;
+.live-button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: solid #4C834E 1px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #4C834E;
+}
+
+.project-links{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.link-container{
+    position: absolute;
+    bottom: 20%;
 }

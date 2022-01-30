@@ -1,19 +1,29 @@
 import React from 'react';
 import { projects } from './projectdata';
-import { Link } from 'react-router-dom';
 import '../styling/projects.css';
+import { SocialIcon } from 'react-social-icons';
+
 
 const Projects = () => {
     return (
         <>
-        <h1 className='project-title'>Projects</h1>
+        <h1 className='project-title'>PROJECTS</h1>
         <div className="project-cards-container">
             {projects.map((project) => (
-            <div class="card" style={{width: "18rem"}}>
+            <div class="project-card">
                 <div class="card-body">
-                    <h5 class="card-title">{project.title}</h5>
-                    <p class="card-text">{project.description}.</p>
-                    <Link to={project.link} class="btn " >Join Community</Link>
+                    <h5 className="card-title">{project.title}</h5>
+                    <p className="card-text">{project.description}.</p>
+                    <div className='project-links'>
+                        <div className='link-container'>
+                            <div className='github-icon-project'>
+                                <SocialIcon url={project.github} />
+                            </div>
+                            <div className='live-button-container'>
+                                <button className='live-button'>LIVE</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             ))}

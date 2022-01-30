@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="about">
         <div className="name">
-            <h1>Hi, Im Erik Correa.</h1>
+            <h1>Hi, Im <span className="erik">Erik Correa</span>.</h1>
         </div>
         <div className="title">
             <h2>Software Engineer</h2>
@@ -22,8 +22,14 @@ const About = () => {
         </div>
         <div className="buttons">
             <button className="resume">RESUME</button>
-            <SocialIcon url="https://www.linkedin.com/in/erik-correa/" />
-            <SocialIcon url="https://github.com/erikcorea" />
+            <div className="icons">
+                <div className="linkedin">
+                    <SocialIcon  url="https://www.linkedin.com/in/erik-correa/" />
+                </div>
+                <div className="github">
+                    <SocialIcon url="https://github.com/erikcorea" />
+                </div>
+            </div>
         </div>
     </div>
   );

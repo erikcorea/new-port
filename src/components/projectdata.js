@@ -6,6 +6,7 @@ export const projects = [
         "Worked with a team to construct a web application that allows users full CRUD on text posts on any topic. Created the backend to store the information of the user and all the posts they make.",
       image: "./orange.png",
       link: "http://team-orange4.herokuapp.com/",
+      github: "https://github.com/Team-Orange4/orange-frontend",
     },
     {
       title: "Spanish Flashcards",
@@ -14,14 +15,7 @@ export const projects = [
         "Allows users to study some of the most used phrases in the Spanish Language. Utilized Javascript to take out phrases you have mastered and leave them in if you still need help with them.",
       image: "./spanish-cards.png",
       link: "https://estudiarcards.netlify.app/",
-    },
-    {
-      title: "Quote Generator",
-      subtitle: "Javascript and 3rd Party API",
-      description:
-        "Created a front-end web applicatoin that allows users to see random generated quotes. They are able to display the random quote they generated to their Twitter account.",
-      image: "./quote.png",
-      link: "https://quotegeneratorator.netlify.app",
+      github: "https://github.com/erikcorea/flash-card",
     },
     {
       title: "Code Connections",
@@ -30,6 +24,7 @@ export const projects = [
         "I created a full-stack application that allows users to find fellow programmers to work on a project together. Users will have full CRUD on thier posts looking for people.",
       image: "./code-connections.jpg",
       link: "https://github.com/erikcorea/fe-final-project",
+      github: "https://github.com/erikcorea/fe-final-project",
     },
   ];
   
@@ -43,5 +38,6 @@ export const projects = [
     "Django",
     "PostgreSQL",
     "AWS",
-    "Terraform"
+    "Terraform",
+
   ];

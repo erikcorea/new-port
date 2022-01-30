@@ -1,10 +1,14 @@
 import React from 'react';
+import '../styling/contact.css';
 
 const Contact = () => {
   return (
-        <div>
-            <h1>Contact</h1>
-        </div>
+        <>
+            <h1 className='contact-title'>CONTACT</h1>
+            <div className='button-container'>
+              <button className='email-button'><a className="email" href = "mailto: erikcorrea444@gmail.com">email me</a></button>
+            </div>
+        </>
   )
 }
 

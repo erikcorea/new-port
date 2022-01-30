@@ -1,21 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-
 body{
-    background-color: #F5EEDC;
+    margin: 0;
 }
-
-.skills-container{
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 4%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.skills-title{
+.contact-title{
     width: 80%;
     margin-left: 10%;
     margin-top: 10%;
@@ -27,9 +15,29 @@ body{
     font-size: 3rem;
 }
 
-.card {
-    margin-bottom: 5%;
-    border: 1px solid;
-    padding: 20px;
-    box-shadow: 5px 8px;
+.email-button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: solid #4C834E 1px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 1.4rem;
+    color: #4C834E;
+}
+
+.button-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.email{
+    text-decoration: none;
+    color: #4C834E;
 }

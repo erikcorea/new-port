@@ -4,10 +4,14 @@
 .about {
     width:100%;
     height:500px;
-    color:white;
+    color:#292B2E;
     position:absolute;
     text-align:center;
-    background-color:#403E3F;
+    background-color:#F5EEDC;
+}
+
+.erik{
+    color: #4C834E;
 }
 
 .name{
@@ -24,7 +28,7 @@
     line-height:20px;
     vertical-align:middle;
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
 }
 
 .about-paragraph{
@@ -35,6 +39,8 @@
 }
 
 .buttons{
+    display: flex;
+    justify-content: space-evenly;
     margin: auto;
     width: 50%;
     vertical-align:middle;
@@ -43,8 +49,18 @@
 .resume{
     background-color: transparent;
     background-repeat: no-repeat;
-    border: solid black 1px;
+    border: solid #4C834E 1px;
     cursor: pointer;
     overflow: hidden;
     font-size: 1.4rem;
+    color: #4C834E;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkedin{
+    margin-right: 20px;
 }
