@@ -73,20 +73,36 @@ body{
 
 }
 
+#projects{
+    text-decoration: none;
+    color: #404040;
+}
 
 
-@media screen and (max-width: 500px) {
-    .project-title { 
-        margin-top: 700px;
-     }
-
-    .project-cards-container {
-      margin-top: 20%;
-    }
 
 
-    .link-container {
-        display: flex;
-        justify-content: space-evenly;
+@media screen and (max-width: 1200px) {
+    .project-title {
+      margin-top: 60%;
     }
   }
+
+
+
+@media screen and (max-width: 850px) {
+    .project-title {
+      margin-top: 110%;
+    }
+  }
+
+@media screen and (max-width: 450px){
+    .project-title {
+        margin-top: 180%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .project-title {
+        margin-top: 200%;
+    }
+}

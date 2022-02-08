@@ -7,9 +7,9 @@ const Navbar = () => {
     <div className="Navbar">
       <span className="nav-logo">ERIK CORREA</span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">Projects</a>
-        <a href="/about">Skills</a>
-        <a href="/service">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

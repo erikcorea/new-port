@@ -65,22 +65,32 @@
     margin-right: 20px;
 }
 
-@media screen and (max-width: 500px) {
+.resume-link{
+    text-decoration: none;
+    color: #4C834E;
+}
+
+@media screen and (max-width: 850px){
+    .name{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .name {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
 
     .title {
         font-size: 1rem;
     }
 
-    .buttons {
-        padding-bottom: 80%;
+    .about-paragraph{
+        line-height: 120%;
+        width: 80%;
     }
 
-    .about-paragraph {
-        padding-bottom: 50px;
+    .resume{
+        font-size: .8rem;
     }
-
-    .resume { font-size: .8rem; }
   }

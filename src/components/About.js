@@ -21,7 +21,7 @@ const About = () => {
             </p>
         </div>
         <div className="buttons">
-            <button className="resume">RESUME</button>
+            <button className="resume"><a className="resume-link" href="https://docs.google.com/document/d/1t_Z1kN7a5Xbb8d7swU0AcXfoEOv7FQgZwSKY3r6cXco/edit?usp=sharing">RESUME</a></button>
             <div className="icons">
                 <div className="linkedin">
                     <SocialIcon  url="https://www.linkedin.com/in/erik-correa/" />

@@ -7,7 +7,7 @@ import { SocialIcon } from 'react-social-icons';
 const Projects = () => {
     return (
         <>
-        <h1 className='project-title'>PROJECTS</h1>
+        <h1 className='project-title'><a href="#" id="projects">PROJECTS</a></h1>
         <div className="project-cards-container">
             {projects.map((project) => (
             <div class="project-card">

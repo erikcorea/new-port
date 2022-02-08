@@ -33,3 +33,8 @@ body{
     padding: 20px;
     box-shadow: 5px 8px;
 }
+
+#skills{
+    text-decoration: none;
+    color: #404040;
+}
