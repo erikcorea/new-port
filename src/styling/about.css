@@ -64,3 +64,23 @@
 .linkedin{
     margin-right: 20px;
 }
+
+@media screen and (max-width: 500px) {
+    .name {
+      font-size: 1.4rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .buttons {
+        padding-bottom: 80%;
+    }
+
+    .about-paragraph {
+        padding-bottom: 50px;
+    }
+
+    .resume { font-size: .8rem; }
+  }
