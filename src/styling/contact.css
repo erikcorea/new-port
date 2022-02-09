@@ -18,11 +18,11 @@ body{
 .email-button{
     background-color: transparent;
     background-repeat: no-repeat;
-    border: solid #4C834E 1px;
+    border: solid #F24444 1px;
     cursor: pointer;
     overflow: hidden;
     font-size: 1.4rem;
-    color: #4C834E;
+    color: #F24444;
 }
 
 .button-container{
@@ -39,11 +39,11 @@ body{
 
 .email{
     text-decoration: none;
-    color: #4C834E;
+    color: #F24444;
 }
 
 #contact {
     text-decoration: none;
-    color: #404040;
+    color: #292B2E;
 }
 

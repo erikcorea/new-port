@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="about-paragraph">
             <p>
-            Hello! I'm Erik Correa, a Chicago based software engineer.(willing to relocate) 
+            Hello! I'm Erik Correa, a NYC based software engineer.(willing to relocate) 
             I am experienced in full stack development. My skills allow me to tackle complex programming problems presented on the job.
             My love for programming stems from my passion to know how things work, how to build them, and how to fix them.
             Contact me to get started working together! 

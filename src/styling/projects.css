@@ -18,7 +18,7 @@ body{
 .project-title{
     width: 80%;
     margin-left: 10%;
-    margin-top: 42%;
+    margin-top: 48%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -59,12 +59,12 @@ body{
 .live-button{
     background-color: transparent;
     background-repeat: no-repeat;
-    border: solid #4C834E 1px;
+    border: solid #F24444 1px;
     cursor: pointer;
     overflow: hidden;
     font-size: 1.4rem;
     margin-top: 10px;
-    color: #4C834E;
+    color: #F24444;
 }
 
 .project-links{
@@ -75,7 +75,7 @@ body{
 
 #projects{
     text-decoration: none;
-    color: #404040;
+    color: #292B2E;
 }
 
 
