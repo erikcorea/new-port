@@ -20,7 +20,7 @@ const Projects = () => {
                                 <SocialIcon url={project.github} />
                             </div>
                             <div className='live-button-container'>
-                                <button className='live-button'>LIVE</button>
+                                <a href={project.link}><button className='live-button'>LIVE</button></a>
                             </div>
                         </div>
                     </div>
